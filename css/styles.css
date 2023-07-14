@@ -9,6 +9,7 @@
 
 body {
     width: 100%;
+    background-color: #000;
 }
 a{
     text-decoration: none;
@@ -17,11 +18,10 @@ li{
     list-style: none;
 }
 .color-try{
-    background-color: #557957;
+    background-color: #72ef78;
 }
-
 .color-1{
-    color:#557957;
+    color:#72ef78;
 }
 #header {
     width: 100%;
@@ -64,7 +64,7 @@ li{
 }
 #navbar li a:hover {
     transform: scale(1.1);
-    color:#557957;
+    color:#72ef78;
 }
 #mobile {
     display: none;
@@ -72,9 +72,12 @@ li{
 #close {
     display: none;
 }
+#large-nav{
+    display: block;
+}
 
 .bg-landing{
-    background-image:linear-gradient(rgba(156, 255, 138, 0.6), rgba(3, 65, 63, 0.6)), url(../images/bg2.jpeg);
+    background-image:linear-gradient(rgb(114, 239, 120), rgba(3, 65, 63, 0.6)), url(../images/bg2.jpeg);
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
@@ -128,10 +131,10 @@ section .about{
 #about .about .about-text-head h3 {
     font-size: 43px;
     font-weight: 600;
-    color: #557957;
+    color: #72ef78;
 }
 #about .about .about-heading span{
-    color: #557957;
+    color: #72ef78;
     font-weight: 400;
 }
 #about .about .about-text {
@@ -141,9 +144,10 @@ section .about{
 #about .about .about-text p{
     font-size: 15px;
     font-weight: 300;
+    color: #f3ecec;
 }
 #about .about .about-text p span {
-    color: #557957;
+    color: #72ef78;
     font-weight: 400;
 }
 
@@ -153,7 +157,7 @@ section .vision{
 }
 
 .green-background{
-    background-color: #557957;
+    background-color: #72ef78;
     width: 100%;
     height: 600px;
     display: flex;
@@ -165,11 +169,11 @@ section .vision{
 }
 .green-text-head h2{
     font-size: 40px;
-    color: #ffffff;
+    color: #000;
     margin-bottom: 20px;
 }
 .green-text-head span {
-    color: #ddd;
+    color: #000;
     font-weight: 300;
 }
 .green-text-head button{
@@ -179,14 +183,14 @@ section .vision{
     font-weight: 300;
     padding: 20px 20px;
     width: 180px;
-    color: #557957;
+    color: #000000;
     background-color: #ffffff;
     border-radius: 4px;
     cursor: pointer;
     border: none;
     outline: none;
     transition: 0.2s;
-}
+} 
 .green-background .green-img img{
     width: 650px;
     height: 600px;
@@ -222,8 +226,8 @@ section .strategy{
     font-weight: 300;
     padding: 20px 20px;
     width: 180px;
-    color: #ffffff;
-    background-color: #557957;
+    color: #000000;
+    background-color: #72ef78;
     border-radius: 4px;
     cursor: pointer;
     border: none;
@@ -243,7 +247,7 @@ section .services {
 .services-text-head h3{
     font-size: 43px;
     font-weight: 600;
-    color: #557957;
+    color: #72ef78;
 }
 .all-services{
     display: flex;
@@ -255,7 +259,7 @@ section .services {
 }
 .each-service{
     width: 520px;
-    background-color: #e8e8e8;
+    background-color: #221f1f;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.2);;
     padding: 30px;
     margin-top: 30px;
@@ -271,18 +275,19 @@ section .services {
     font-weight: 400;
     margin-bottom: 11px;
     margin-left: 5px;
-    color: #557957;
+    color: #72ef78;
 }
 .each-service h2 {
     font-size: 23px;
     font-weight: 400;
     margin-bottom: 11px;
     margin-left: 5px;
-    color: #557957;
+    color: #72ef78;
 }
 .each-service span{
     font-size: 15px;
     font-weight: 300;
+    color: #fff;
 }
 .services-image img{
     width: 600px;
@@ -291,11 +296,11 @@ section .services {
 .each-service .icon{
     width: 30px;
     height: 30px;
-    background-color: #557957;
+    background-color: #72ef78;
     border-radius: 40px;
     line-height: 30px;
     padding-left: 2px;
-    color: #ddd;
+    color: #000;
     align-items: center;
 
 }
@@ -312,7 +317,7 @@ section .value-section{
 #value .value-text {
     font-size: 43px;
     font-weight: 600;
-    color: #557957;
+    color: #72ef78;
 }
 
 #value .values {
@@ -327,12 +332,12 @@ section .value-section{
     text-align: center;
     padding: 25px 15px;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
-    border: 1px solid #557957;
+    border: 1px solid #72ef78;
     border-radius: 4px;
     margin: 15px 0;
 }
 #value .values .value-box:hover {
-    box-shadow: 10px 10px 54px #557957;
+    box-shadow: 10px 10px 54px #72ef78;
     transform: scale(1.1);
 }
 #value .values .value-box h6 {
@@ -371,7 +376,7 @@ section .expectation{
     padding: 70px;
 }
 .bg-expect{
-    background-image:linear-gradient(rgba(16, 63, 16, 0.6), rgba(15, 58, 24, 0.6)),  url(../images/jus2.jpeg);
+    background-image:linear-gradient(rgba(114, 239, 120,0.6), rgba(15, 58, 24, 0.6)),  url(../images/jus2.jpeg);
     height: 300px;
     width: 100%;
     background-position: top -90% right 0;
@@ -397,27 +402,32 @@ section .team {
 .team-text-head h3{
     font-size: 43px;
     font-weight: 600;
-    color: #557957;
+    color: #72ef78;
 }
 .team-members{
     position: relative;
-    margin-top: 40px;
+    margin-top: 2px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.each-member {
+    margin-top: 80px;
+}
 .each-member img {
-    width: 280px;
-    height: 260px;
+    width: 350px;
+    height: 350px;
 }
 .each-member h2{
     margin-top: 7px;
     font-size: 20px;
     font-weight: 600;
+    color: #fff;
 }
 .each-member h3{
     font-size: 15px;
     font-weight: 300;
+    color: #fff;
 }
 
 /*-----------Programs--------*/
@@ -439,7 +449,7 @@ section .programs {
 .program-text h3{
     font-size: 43px;
     font-weight: 600;
-    color: #557957;
+    color: #72ef78;
     margin-bottom: 30px;
 }
 .program-text p{
@@ -453,7 +463,7 @@ section .programs {
     padding: 20px 20px;
     width: 180px;
     color: #ffffff;
-    background-color: #557957;
+    background-color: #72ef78;
     border-radius: 4px;
     cursor: pointer;
     border: none;
@@ -498,7 +508,7 @@ section .footer {
 }
 .footer-socials .links a {
     font-size: 25px;
-    color: #557957;
+    color: #72ef78;
     margin-right: 20px;
 }
 .footer-cards{
@@ -521,7 +531,7 @@ section .footer {
     margin-top: 20px;
 }
 .footer-support h2 a{
-    color: #557957;
+    color: #72ef78;
 }
 .footer-support p{
     font-size: 16px;
@@ -540,7 +550,7 @@ section .footer {
 .footer-address h2{
     margin-top: 20px;
     font-size: 25px;
-    color: #557957;
+    color: #72ef78;
 }
 .footer-address p{
     margin-bottom: 30px;
@@ -551,7 +561,7 @@ section .footer {
     margin-top: 30px;
     font-size: 16px;
     font-weight: 300;
-    color: #557957;
+    color: #72ef78;
 }
 .footer-copyright{
     margin-top: 80px;
@@ -564,9 +574,10 @@ section .footer {
 
 /*-----------Responsiveness----------*/
 @media (max-width:991px) {
-
     /*--------Header & Nav-------------*/
-
+    #large-nav{
+        display: none;
+    }
     #header {
         padding: 10px 20px;
         width: 100%;
@@ -585,15 +596,15 @@ section .footer {
         align-items: flex-start;
         justify-content: flex-start;
         top: 0;
-        right: -300px;
+        right: -600px;
         position: fixed;
         height: 100vh;
-        width: 250px;
+        width: 60%;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 80px 0 0 80px;
         transition: 1s;
         z-index: 999;
-        background-color: #557957;
+        background-color: #72ef78;
     }
     #navbar.active {
         right: 0px;
@@ -611,7 +622,7 @@ section .footer {
         display: flex;
     }
     #mobile i {
-        color: #557957;
+        color: #72ef78;
         font-size: 23px;
         display: flex;
        padding-left: 20px;
@@ -619,7 +630,7 @@ section .footer {
 
     }
     #close {
-        display: initial;
+        display: block;
         position: absolute;
         right: 30px;
         top: 30px;
@@ -757,8 +768,6 @@ section .footer {
     }
     .each-service{
         width: 100%;
-        background-color: #e8e8e8;
-        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.2);;
         padding: 20px;
         margin-top: 30px;
         position: relative;
@@ -781,7 +790,7 @@ section .footer {
     .each-service .icon{
         width: 30px;
         height: 30px;
-        background-color: #557957;
+        background-color: #72ef78;
         border-radius: 40px;
         line-height: 30px;
         padding-left: 2px;
@@ -845,19 +854,20 @@ section .footer {
         padding: 23px;
     }
     .team-text-head h3{
-        font-size: 27px;
+        font-size: 30px;
         font-weight: 600;
-        color: #557957;
+        color: #72ef78;
+        margin-top: 60px;
     }
     .team-members{
-        margin-top: 30px;
+        margin-top: 2px;
     }
     .each-member{
         margin-bottom: 40px;
     }
     .each-member img {
-        width: 270px;
-        height: 220px; 
+        width: 300px;
+        height: 280px; 
     }
     .each-member h2{
         font-size: 17px;
@@ -963,7 +973,7 @@ section .footer {
     }
     .footer-address h2{
         font-size: 16px;
-        color: #557957;
+        color: #72ef78;
     }
     .footer-address p{
         margin-bottom: 30px;
